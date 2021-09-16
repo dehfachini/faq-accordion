@@ -51,16 +51,32 @@ body {
 
 .title {
     padding-bottom: 1rem;
-    color: black;
-    font-weight: bold;
     display: flex;
     justify-content: space-between;
 }
 
+.title-bold {
+    color: black;
+    font-weight: bold;
+}
+
+.title:hover {
+    color: var(--soft-red);
+}
+
 .arrow {
-    /* width: 0.5rem; */
+    cursor: pointer;
+}
+
+.arrow-up {
+    transform: rotate(180deg);
 }
 
 .text {
     color: var(--very-dark-grayish-blue);
+    display: none;
+}
+
+.text-shown {
+    display: block;
 }
