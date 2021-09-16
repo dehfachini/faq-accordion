@@ -1,6 +1,6 @@
 :root {
     --font-family: 'Kumbh Sans', sans-serif;
-    --font-size: 12px;
+    --font-size: 13px;
     --very-dark-grayish-blue: hsl(237, 12%, 33%);
     --dark-grayish-blue: hsl(240, 6%, 50%);
     --light-grayish-blue: hsl(240, 5%, 91%);
@@ -29,10 +29,38 @@ body {
     background-color: #fff;
 }
 
+.rightside {
+    width: 30rem;
+}
+
+.inner-rightside {
+    width: 20rem;
+    margin: auto;
+}
+
 .faq {
-    padding-bottom: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .faq-item {
     padding-bottom: 3rem;
+}
+
+.title {
+    padding-bottom: 1rem;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow {
+    /* width: 0.5rem; */
+}
+
+.text {
+    color: var(--very-dark-grayish-blue);
 }
