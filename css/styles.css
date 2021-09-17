@@ -21,32 +21,54 @@ body {
 }
 
 .container {
-    margin: 10rem;
+    margin: 4rem 6rem;
+    display: flex;
+    justify-content: center;
 }
 
 .inner-container {
     display: flex;
     background-color: #fff;
+    border-radius: 1.5rem;
+    max-width: 70vw;
 }
 
+.woman-image {
+    width: 400px;
+    overflow: hidden;
+}
+
+.woman-image img {
+    margin-top: 3rem;
+    margin-left: -70px;
+    width: 470px;
+}
+
+.box-image {
+    margin-top: -14rem;
+    margin-left: -6rem;
+}
+
+
+
 .rightside {
-    width: 30rem;
+    width: 60rem;
 }
 
 .inner-rightside {
-    width: 20rem;
+    width: 26em;
     margin: auto;
 }
 
 .faq {
-    padding-top: 4rem;
-    padding-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
     font-size: 2rem;
     font-weight: bold;
 }
 
 .faq-item {
-    padding-bottom: 3rem;
+    padding-bottom: 1.5rem;
 }
 
 .title {
